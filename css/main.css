@@ -2856,6 +2856,18 @@ a {
   }
 }
 
+@media (orientation: landscape) and (max-width: 768px) {
+  .mainHeaderCaption {
+    margin-top: 40px;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 768px) {
+  .mainHeaderCaption {
+    margin-top: 80px;
+  }
+}
+
 @media (max-width: 992px) {
   .serviceItem {
     width: 70%;
